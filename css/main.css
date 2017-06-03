@@ -1,0 +1,63 @@
+main {
+  padding-top: 100px;
+}
+
+main .row {
+  margin-bottom: 20px;
+}
+
+.box {
+  height: 400px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.black {
+  background-color: #E3EBF3;
+  
+}
+
+.green {
+  background-color: #E3EBF3;
+}
+
+.orange {
+  background-color: #E3EBF3;
+}
+
+.blue {
+  background-color: #E3EBF3;
+}
+
+.bank {
+height: 600px;	
+}
+
+.small {
+height: 190px;
+
+}
+
+.top {
+padding-bottom: 10px;
+
+}
+
+.bottom{
+padding-top: 10px;
+}
+
+.conts {
+	height: 450px;
+}
+
+.foot {
+  height: 90px;
+  background-color: none;
+  padding-top: 20px;
+
+}
+
+.footr {
+	padding-top: 30px;
+}
