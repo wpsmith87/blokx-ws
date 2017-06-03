@@ -12,21 +12,27 @@ main .row {
   padding-top: 30px;
 }
 
+.box:hover {
+  -webkit-transition: background 0.1s;
+    transition: background 0.1s; 
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
 .black {
-  background-color: #E3EBF3;
+  background-color: #F4F6F6;
   
 }
 
 .green {
-  background-color: #E3EBF3;
+  background-color: #F4F6F6;
 }
 
 .orange {
-  background-color: #E3EBF3;
+  background-color: #F4F6F6;
 }
 
 .blue {
-  background-color: #E3EBF3;
+  background-color: #F4F6F6;
 }
 
 .bank {

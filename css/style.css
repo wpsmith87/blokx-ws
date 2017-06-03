@@ -150,7 +150,7 @@ label {
 input, textarea {
   width: 200px;
   height:27px;
-  background:#efefef;
+  background:#fff;
   border:none;
   padding:10px;
   margin-top:3px;
@@ -164,15 +164,20 @@ textarea {
   /*background:url(images/#) right no-repeat #efefef;*/
 }
 
-.cont-bod {
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+.cont-bod:hover {
+ -webkit-transition: background 0.1s;
+    -moz-transition: background 0.1s;
+    -o-transition: background 0.1s;
+    transition: background 0.1s;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .submit-button {
   display: block;
-    margin-left: 144px;
     width: 90px;
     height: 38px;
+    margin: auto;
+    margin-top: 8px;
 }
 .submit-button:hover {
   -webkit-transition: background 0.1s;
@@ -303,6 +308,10 @@ header {
   color: #85929E;
 }
 
+.nav-collapse a:hover {
+  color: #84A9CD;
+}
+
 @media screen and (min-width: 40em) {
   .nav-collapse a {
     border-left: 1px solid white;
@@ -388,8 +397,11 @@ a .icon-img {
   padding-top: 20px;
   width: inherit;
   float: right;
-  padding-right: 10px;
-  text-decoration: none;
+  padding-right: 20px;
+}
+
+.container a {
+  color: inherit;
 }
 
 .ft-logo {
@@ -423,7 +435,7 @@ a .icon-img {
 }
 
 .foot nav a:hover {
-  color: black;
+ color: #84A9CD;
 }
 
 
